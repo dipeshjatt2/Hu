@@ -5,8 +5,8 @@ import os
 load_dotenv()
 
 # API ID and Hash
-API_ID = int(os.getenv('API_ID'))
-API_HASH = os.getenv('API_HASH')
+API_ID = int(os.getenv('22118129'))
+API_HASH = os.getenv('43c66e3314921552d9330a4b05b18800')
 
 # Delays (still hardcoded, but could be moved to .env if needed)
 DELAYS = {
@@ -16,7 +16,7 @@ DELAYS = {
 }
 
 # Use proxies or not
-PROXY = os.getenv('PROXY') == 'True'
+PROXY = os.getenv('PROXY') == 'false'
 
 # Play drop game
 PLAY_GAMES = os.getenv('PLAY_GAMES') == 'True'
